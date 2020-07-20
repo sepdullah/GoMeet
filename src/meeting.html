@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoMeet - SMK Pembangunan Jaya | Free video conferencing, Video chat, Screen sharing, live Stream</title>
+  <link rel="icon" href="./img/favicon.png" sizes="64x64" type="image/png">
+  <meta property="og:image"
+    content="https://repository-images.githubusercontent.com/257235848/279d4880-8321-11ea-9023-6b943ccc76e2">
+
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./js/meeting.js"></script>
+  <script src='https://meet.jit.si/external_api.js'></script>
+
+</head>
+
+<body>
+  <div class="main-nav">
+    <!-- sticky-top -->
+    <div class="container-fluid d-none d-sm-none d-lg-block d-xl-block">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/full_logo.svg" width="230px" height="43px" class="d-inline-block align-top" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Contact Us</a>
+                </li> -->
+          </ul>
+         
+          <input type="text" name="setPass" id="setPass" class="form-control w-25"
+            placeholder="enter meeting room password">
+          <button id="myButton" type="button" class="btn btn-success" aria-placeholder="enter meeting room password">Set
+            Password</button>
+          <img src="./img/def_avatar.png" alt="" height="50px">
+          <div class="">
+            <p class="m-0 ml-1"> <b class="username">loading</b></p>
+          </div>
+
+        </div>
+      </nav>
+
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 side-bar text-light text-center p-0">
+        <!-- <div class="sidebar-sticky"></div> -->
+        <a class="btn btn-danger btn_sidebar " style="font-size: 13px;" href="./index.html" onclick="localStorage.clear()">End Meeting</a>
+        <a class="btn btn-primary btn_sidebar " style="font-size: 13px;" href="./index.html" onclick="localStorage.clear()">New Meeting</a>
+          <div class="ad-container pt-5">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- vidicon_meeting_sidebar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7756919313319706"
+     data-ad-slot="9246446502"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:170px;height:250px"
+     data-ad-client="ca-pub-7756919313319706"
+     data-ad-slot="1323530931"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
+        
+      </div>
+      <div class="col-10 p-0">
+        
+          <div id="vidicon_window"></div>
+          <div id="leave_btn"> <a class="btn btn-danger leave_meeting" href="./index.html" onclick="localStorage.clear()"><img
+                src="./img/call_end-24px.svg" alt=""></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="side-bar">asdad</div> -->
+  
+  <div class="room_name  d-none d-sm-none d-lg-block d-xl-block">Current Room:  
+    <span class="current_room font-weight-bold">Room Name</span>
+  </div>
+  
+ 
+
+</body>
+
+</html>
