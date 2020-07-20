@@ -1,7 +1,7 @@
 {
-  "name": "React Video Call",
-  "description": "React Video Call App powered by WebRTC, React and Socket.io",
-  "repository": "https://github.com/nguymin4/react-videocall",
+  "name": "GoMeet",
+  "description": "GoMeet - SMK Pembangunan Jaya | Free video conferencing, Video chat, Screen sharing, live Stream",
+  "repository": "https://github.com/sepdullah/GoMeet",
   "logo": "https://raw.githubusercontent.com/nguymin4/react-videocall/production/client/src/assets/icon1.png",
-  "keywords": ["react", "express", "video call"]
+  "keywords": ["gomeet", "express", "video call"]
 }
